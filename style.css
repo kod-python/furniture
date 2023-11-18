@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    transition: all 1s linear;
+    /* transition: all 1s linear; */
     
 }
 /* universal */
@@ -95,3 +95,410 @@ nav h2{
 }
 
 /* nav section ends here */
+
+/* about section starts here */
+#about .about-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+#about .abouth1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#about .abouth1 span{
+    color: goldenrod;
+}
+#about img{
+    width: 700px;
+}
+
+#about .about-down h2{
+    font-size: 2rem;
+}
+#about .about-down h3{
+    font-size: 1.6rem;
+    color: grey;
+}
+
+#about .about-down{
+    line-height: 3rem;
+}
+#about .about-down p{
+    font-size: 1.3rem;
+    color: grey;
+}
+#about .btn{
+   
+    width: 200px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+}
+
+#about .btn:hover{
+    letter-spacing: .2rem;
+}
+
+/* about section ends here */
+
+/* service section starts here */
+
+#service .service-top{
+    margin-top: 20px;
+}
+
+#service .text-header{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#service .text-header span{
+    color: goldenrod;
+}
+
+#service .service-down1{
+    display: flex;
+}
+
+#service .service-down{
+    border: 1px solid ;
+    margin: 10px;
+    padding: 70px;
+    text-align: center;
+    height: 500px;
+    
+}
+
+#service .service-down h2{
+    font-size:2rem;
+    padding-bottom: 10px;
+}
+
+#service .service-down p{
+    font-size: 1.3rem;
+}
+
+#service .service-top p{
+    padding-bottom: 30px;
+}
+
+#service .btn{
+    padding: 1rem 3rem;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: inline-block;
+   
+
+}
+
+#service .btn:hover{
+letter-spacing: .2rem;
+}
+
+
+/* service section ends here */
+
+/* product section starts here */
+#product .product-top{
+    margin-top: 20px;
+}
+
+#product .text-header{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#product .text-header span{
+    color: goldenrod;
+}
+
+#product .product-down1{
+    display: flex;
+}
+
+#product .product-down{
+    border: 1px solid ;
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+    height: 500px;
+    width: 750px;
+    
+   
+}
+
+
+#product .product-down h2{
+    font-size:2rem;
+    padding-bottom: 10px;
+}
+
+#product .product-down p{
+    font-size: 1.3rem;
+}
+
+#product .product-top p{
+    padding-bottom: 30px;
+}
+
+
+
+
+#product .product-down2{
+    display: flex;
+   
+
+}
+
+
+
+/* #product .fa-eye::before{
+    content: "\f06e";
+    position:absolute;
+top:1.5rem;
+border-radius:50%;
+height:5rem;
+width:5rem;
+line-height:5rem;
+font-size:3rem;
+}
+
+
+
+#product .fa-heart::before{
+    content: "\f004";
+    position:absolute;
+top:1.5rem;
+border-radius:50%;
+height:5rem;
+width:5rem;
+line-height:5rem;
+font-size:3rem;
+}
+
+
+#product .product-down .fa-eye:hover{ 
+    background: black;
+    color: white;
+} */
+
+
+
+#product .btn{
+    padding: 1rem 3rem;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: inline-block;
+   
+
+}
+
+#product .btn:hover{
+letter-spacing: .2rem;
+}
+
+/* prodcut section ends here */
+
+
+/* our team starts here */
+#team .team-top{
+    margin-top: 20px;
+}
+
+#team .text-header{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#team .text-header span{
+    color: goldenrod;
+}
+
+#team .team-down1{
+    display: flex;
+}
+
+#team .team-down{
+    border: 1px solid ;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 500px;
+    width: 750px;
+    
+   
+}
+
+
+#team .team-down h2{
+    font-size:1.7rem;
+    color: grey;
+    text-transform: capitalize;
+    
+}
+
+#team .team-down p{
+    font-size: 1.3rem;
+}
+
+#team .h2p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* team section ends here */
+
+/* blog section starts here */
+#blog .blog-top{
+    margin-top: 20px;
+}
+
+#blog .text-header{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#blog .text-header span{
+    color: goldenrod;
+}
+
+#blog .blog-down1{
+    display: flex;
+}
+
+#blog .blog-down{
+    border: 1px solid ;
+    margin: 10px;
+    
+    text-align: center;
+    height: 566px;
+    
+    
+}
+
+#blog hr{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#blog .blog-down h2{
+    font-size:2rem;
+    padding-bottom: 10px;
+    text-align: justify;
+    padding-left: 20px;
+
+}
+
+#blog .blog-down p{
+    font-size: 1.3rem;
+    text-align: justify;
+    padding-left: 20px;
+    
+}
+
+#blog .blog-top p{
+    padding-bottom: 30px;
+}
+
+#blog .btn{
+    padding: 1rem 3rem;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: -198px;
+    margin-top: 20px;
+   
+}
+
+#blog .btn1{
+    padding: 1rem 3rem;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: -216px;
+    margin-top: 20px;
+   
+}
+
+
+#blog .btn2{
+    padding: 1rem 3rem;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: -178px;
+    margin-top: 20px;
+   
+}
+
+
+#blog input{
+    border: none;
+    
+}
+
+#blog .iclass{
+   display: flex; 
+   /* justify-content: space-between; */
+   align-items: center;
+ 
+ 
+    
+}
+
+#blog .iclass1{
+
+}
+
+#blog .blog-down .fa-calendar{
+padding-left: 50px;
+}
+
+
+#blog .blog-down .fa-user{
+    
+}
+
+
+#blog .btn:hover{
+letter-spacing: .2rem;
+}
+
+/* bog section ends here */
