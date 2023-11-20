@@ -377,6 +377,7 @@ letter-spacing: .2rem;
 /* blog section starts here */
 #blog .blog-top{
     margin-top: 20px;
+    
 }
 
 #blog .text-header{
@@ -397,6 +398,7 @@ letter-spacing: .2rem;
 #blog .blog-down{
     border: 1px solid ;
     margin: 10px;
+    
     
     text-align: center;
     height: 566px;
@@ -441,32 +443,6 @@ letter-spacing: .2rem;
    
 }
 
-#blog .btn1{
-    padding: 1rem 3rem;
-    width: 200px;
-    background-color: black;
-    color: white;
-    font-size: 1.1rem;
-    cursor: pointer;
-    display: inline-block;
-    margin-left: -216px;
-    margin-top: 20px;
-   
-}
-
-
-#blog .btn2{
-    padding: 1rem 3rem;
-    width: 200px;
-    background-color: black;
-    color: white;
-    font-size: 1.1rem;
-    cursor: pointer;
-    display: inline-block;
-    margin-left: -178px;
-    margin-top: 20px;
-   
-}
 
 
 #blog input{
@@ -502,3 +478,95 @@ letter-spacing: .2rem;
 }
 
 /* bog section ends here */
+
+
+/* contact section starts here */
+#contact .contact-top .contact-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#contact h2{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+#contact h2 span{
+    color: goldenrod;
+}
+
+#contact form{
+    border: 1px solid;
+    padding: 30px;
+    margin: 20px;
+    height: 900px;
+    background-color:rgb(243, 237, 237) ;
+ 
+}
+
+#contact form input{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    width: 770px;
+    padding: 20px;
+    font-size: 1.5rem;
+    margin: 20px 4px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color:rgb(243, 237, 237) ;
+    
+}
+
+#contact form h2{
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+#contact label{
+    font-size: 1.5rem;
+    color: goldenrod;
+}
+
+#contact img{
+    width: 900px;
+    height: 900px;
+}
+
+textarea{
+    width: 796px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:rgb(243, 237, 237) ;
+    
+}
+
+#contact .btn{
+    padding: 20px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+/* contact section ends here */
+
+
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #5f5656;
+    font-size: 1.6rem;
+    color: white;
+}
