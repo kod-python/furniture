@@ -136,8 +136,7 @@ nav h2{
     color: grey;
 }
 #about .btn{
-   
-    width: 200px;
+
     margin-top: 20px;
     background-color: black;
     color: white;
@@ -157,6 +156,8 @@ nav h2{
 
 #service .service-top{
     margin-top: 20px;
+    background-color: ;
+    
 }
 
 #service .text-header{
@@ -177,7 +178,7 @@ nav h2{
 #service .service-down{
     border: 1px solid ;
     margin: 10px;
-    padding: 70px;
+    padding: 50px;
     text-align: center;
     height: 500px;
     
@@ -197,8 +198,7 @@ nav h2{
 }
 
 #service .btn{
-    padding: 1rem 3rem;
-    width: 200px;
+  padding: 1rem 3rem;
     background-color: black;
     color: white;
     font-size: 1.1rem;
@@ -301,11 +301,31 @@ font-size:3rem;
     color: white;
 } */
 
+#product .product-down p span{
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+#product .product-down p{
+    margin-top: 10px;
+}
+
+
+
+#product .product-down .fa-star{
+    color: goldenrod;
+}
+
+
+
+#product .product-down .fa-star-half{
+    color: goldenrod;
+}
+
 
 
 #product .btn{
-    padding: 1rem 3rem;
-    width: 200px;
+   padding: 1rem 3rem;
     background-color: black;
     color: white;
     font-size: 1.1rem;
@@ -325,6 +345,9 @@ letter-spacing: .2rem;
 /* our team starts here */
 #team .team-top{
     margin-top: 20px;
+   
+   
+   
 }
 
 #team .text-header{
@@ -345,7 +368,7 @@ letter-spacing: .2rem;
 #team .team-down{
     border: 1px solid ;
     margin: 10px;
-    padding: 10px;
+   
     text-align: center;
     height: 500px;
     width: 750px;
@@ -377,6 +400,7 @@ letter-spacing: .2rem;
 /* blog section starts here */
 #blog .blog-top{
     margin-top: 20px;
+
     
 }
 
@@ -398,6 +422,7 @@ letter-spacing: .2rem;
 #blog .blog-down{
     border: 1px solid ;
     margin: 10px;
+    width: 32.5%;
     
     
     text-align: center;
@@ -407,41 +432,46 @@ letter-spacing: .2rem;
 }
 
 #blog hr{
-    margin-top: 20px;
-    padding-bottom: 20px;
-}
-
-#blog .blog-down h2{
-    font-size:2rem;
-    padding-bottom: 10px;
-    text-align: justify;
-    padding-left: 20px;
-
-}
-
-#blog .blog-down p{
-    font-size: 1.3rem;
-    text-align: justify;
-    padding-left: 20px;
+  
+    width: 350px;
+    margin-left: 30px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 15px;
     
 }
 
-#blog .blog-top p{
-    padding-bottom: 30px;
+#blog .blog-down h2{
+    font-size:1.5rem;
+   
+    text-align: justify;
+   padding: 20px;
 }
 
+
+#blog .blog-down p{
+    font-size: 1.2rem;
+    text-align: justify;
+   
+    padding: 20px;
+    
+}
+
+
 #blog .btn{
-    padding: 1rem 3rem;
-    width: 200px;
+   padding: 1rem 3rem;
     background-color: black;
     color: white;
     font-size: 1.1rem;
     cursor: pointer;
     display: inline-block;
-    margin-left: -198px;
-    margin-top: 20px;
+    /* margin-left: -198px; */
+
+    
    
 }
+
 
 
 
@@ -459,25 +489,63 @@ letter-spacing: .2rem;
     
 }
 
-#blog .iclass1{
-
+#blog .img-resp{
+    transition: 1s linear;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
 }
 
+#blog .img-resp:hover{
+ 
+    transform: translate3d(10px,0px,20px);  
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+
+
+
+#blog .img-resp2{
+    transition: 1s linear;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+
+#blog .img-resp2:hover{
+ 
+    transform: translate3d(10px,0px,20px);  
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+
+
+#blog .img-resp1{
+    transition: 1s linear;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+
+#blog .img-resp1:hover{
+ 
+    transform: translate3d(10px,0px,20px);  
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+
+
+
 #blog .blog-down .fa-calendar{
-padding-left: 50px;
+padding-left: 10px;
 }
 
 
 #blog .blog-down .fa-user{
-    
+    font-size: 1rem;
+    padding-left: 180px;
 }
 
 
 #blog .btn:hover{
-letter-spacing: .2rem;
+letter-spacing: .1rem;
 }
 
-/* bog section ends here */
+/* blog section ends here */
 
 
 /* contact section starts here */
@@ -485,9 +553,16 @@ letter-spacing: .2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 95%;
+    
     
 }
 
+#contact .contact-top{
+    margin-top: 80px;
+    background-color: rgb(243, 237, 237);
+    width: 100%;
+}
 #contact h2{
     font-size: 3rem;
     font-weight: bolder;
@@ -503,19 +578,21 @@ letter-spacing: .2rem;
 #contact form{
     border: 1px solid;
     padding: 30px;
-    margin: 20px;
-    height: 900px;
+    margin: 10px;
+    height: 770px;
     background-color:rgb(243, 237, 237) ;
  
 }
 
+
+
 #contact form input{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    width: 770px;
+    width: 570px;
     padding: 20px;
     font-size: 1.5rem;
-    margin: 20px 4px;
+    margin: 10px 4px;
     border-left: none;
     border-top: none;
     border-right: none;
@@ -534,12 +611,12 @@ letter-spacing: .2rem;
 }
 
 #contact img{
-    width: 900px;
-    height: 900px;
+    width: 700px;
+    height: 700px;
 }
 
 textarea{
-    width: 796px;
+    width: 596px;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -548,7 +625,7 @@ textarea{
 }
 
 #contact .btn{
-    padding: 20px;
+    padding: 15px;
     width: 200px;
     background-color: black;
     color: white;
@@ -570,3 +647,4 @@ footer{
     font-size: 1.6rem;
     color: white;
 }
+/* footer ends here */
