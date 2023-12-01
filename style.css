@@ -24,6 +24,7 @@ nav{
     padding: 28px;
    position: fixed;
     width: 100%; 
+    z-index: 1;
     
 
 }
@@ -59,6 +60,13 @@ nav ul a{
     font-size: 1.5rem;
     font-weight: bold;
     color: black;
+    transition: 0.4s ease forwards;
+    transition-property: color;
+}
+
+
+nav ul a:hover{
+    color: goldenrod;
 }
 
 .nav-down img{
@@ -93,6 +101,32 @@ nav h2{
     font-size: 1.9rem;
     color: darkgoldenrod;
 }
+
+
+
+
+
+.shop-user a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease forwards;
+    transition-property: color;
+}
+
+.shop-user a:hover{
+    color: goldenrod;
+}
+
+/* 
+.nav-down .ic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    margin-top: 40px;
+    font-size: 2rem;
+    color: white;
+} */
 
 /* nav section ends here */
 
@@ -247,6 +281,17 @@ letter-spacing: .2rem;
 }
 
 
+#product .img-resp{
+    transition: 1s linear;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+
+
+#product .img-resp:hover{
+    transform: translate3d(10px,0px,20px);  
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
 #product .product-down h2{
     font-size:2rem;
     padding-bottom: 10px;
@@ -400,6 +445,7 @@ letter-spacing: .2rem;
 /* blog section starts here */
 #blog .blog-top{
     margin-top: 20px;
+    z-index: 1;
 
     
 }
@@ -433,12 +479,12 @@ letter-spacing: .2rem;
 
 #blog hr{
   
-    width: 350px;
-    margin-left: 30px;
+    width: 399px;
+   
     border-bottom: none;
     border-left: none;
     border-right: none;
-    margin-top: 15px;
+    margin-top: 10px;
     
 }
 
@@ -625,8 +671,7 @@ textarea{
 }
 
 #contact .btn{
-    padding: 15px;
-    width: 200px;
+  padding: 1rem 3rem;
     background-color: black;
     color: white;
     font-size: 1.1rem;

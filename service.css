@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    /* transition: all 1s linear; */
+    
+}
+/* universal */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+/* iniversal ends here */
+
+/* nav section starts here */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(223, 218, 218);
+    padding: 28px;
+   position: relative;
+    width: 100%; 
+    z-index: 1;
+    
+
+}
+
+.chair-furn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul{
+  display: flex;
+ 
+}
+
+
+ .fa-chair{
+    color: goldenrod;
+    font-size: 2rem;
+    
+}
+
+.fa-cart-shopping{
+    font-size: 2rem;
+}
+
+.fa-user{
+    font-size: 2rem;
+    padding-left: 20px;
+}
+nav ul a{
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    transition: 0.4s ease forwards;
+    transition-property: color;
+}
+
+
+
+
+nav ul a:hover{
+    color: goldenrod;
+}
+
+
+
+
+
+.nav-down img{
+    gap: -20px;
+}
+
+nav h2{
+   font-size: 2rem;
+}
+
+.nav-down{
+    background-image: url("./images/home-slide1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    padding: 20%;
+ font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-down h2{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+ 
+
+}
+
+.nav-down p{
+    text-align: center;
+    color: white;
+    font-size: 1.9rem;
+    color: darkgoldenrod;
+}
+
+
+.swiper{
+    width: 600px;
+    height: 300px;
+}
+
+/* 
+.nav-down .ic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    margin-top: 40px;
+    font-size: 2rem;
+    color: white;
+} */
+
+/* nav section ends here */
+
+
+/* service section starts here */
+
+#service .service-top{
+    margin-top: 20px;
+    background-color: ;
+    
+}
+
+#service .text-header{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#service .text-header span{
+    color: goldenrod;
+}
+
+#service .service-down1{
+    display: flex;
+}
+
+#service .service-down{
+    border: 1px solid ;
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+    height: 500px;
+    
+}
+
+#service .service-down h2{
+    font-size:2rem;
+    padding-bottom: 10px;
+}
+
+#service .service-down p{
+    font-size: 1.3rem;
+}
+
+#service .service-top p{
+    padding-bottom: 30px;
+}
+
+#service .btn{
+  padding: 1rem 3rem;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: inline-block;
+   
+
+}
+
+#service .btn:hover{
+letter-spacing: .2rem;
+}
+
+
+/* service section ends here */
+
+
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #5f5656;
+    font-size: 1.6rem;
+    color: white;
+}
+/* footer ends here */
