@@ -146,6 +146,18 @@ nav h2{
     display: flex;
 }
 
+ .fa-cart-shopping{
+    color: black;
+    transition: 0.5s ease forwards;
+    transition-property: color;
+}
+
+.fa-cart-shopping:hover{
+    color: goldenrod;
+}
+
+
+
 #product .product-down{
     border: 1px solid ;
     margin: 10px;
