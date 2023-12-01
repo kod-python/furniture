@@ -421,6 +421,17 @@ letter-spacing: .2rem;
    
 }
 
+#team .team-down img{
+    transition: 1s linear;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+
+#team .team-down img:hover{
+    transform: translate3d(10px,0px,20px);  
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
 
 #team .team-down h2{
     font-size:1.7rem;
