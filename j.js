@@ -1,4 +1,21 @@
 
+// funstion for time and date
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo1").innerHTML = d.toLocaleDateString();
+}
+var myVar = setInterval(myTimer, 1000);
+
+
+// end of funsction on date and time
+
+
 
 // const swiper = new Swiper('.swiper', {
 //     // Optional parameters
